@@ -1,0 +1,54 @@
+body{
+    background-color:#202124;
+    font-family:Futura Medium;
+    color:#ffffff;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+  }
+  
+  h1{
+    font-size:29px;
+    font-weight: normal;
+   
+  }
+  .container{
+    display:grid;
+
+    /* for each grid cell, height should be 106% of the width but i dont know how to achieve it */
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(3,auto);
+    grid-column-gap: 12px;
+    grid-row-gap: 12px;
+    width:90%;
+  
+  }
+  .items{
+    border-radius: 15px;
+    width: 100%;
+  }
+  
+  footer{
+    margin-top:84px;
+    font-size:15px;
+    font-family: Roboto Regular;
+  }
+  
+  footer a{
+    color:#ffffff;
+  }
+
+  .fcontainer{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width:900px;
+
+  }
+
+  .fitems{
+    border-radius: 15px;
+    margin:8px;
+    height:222px;
+  
+  }
